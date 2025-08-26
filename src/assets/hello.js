@@ -92,7 +92,7 @@ export const projects = [
     description:
       "A powerful and user-friendly full-stack application designed to uncover and showcase detailed blog information. Simply enter a blog URL, and the app fetches comprehensive data, including post stats, authors, tags, and comments. The intuitive interface ensures a seamless experience, making it a must-visit tool for bloggers and readers.",
     image: bloggingImg,
-    tags: ["React JS", "API", "Node.js", "MongoDB", "Firebase", "AWS"],
+    tags: ["React JS","Tailwind CSS", "API", "Node.js", "MongoDB", "Firebase", "AWS","Flaticon","OpenAI"],
     github: "#",
     webapp: "#",
   },
