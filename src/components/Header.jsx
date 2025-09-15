@@ -108,7 +108,7 @@ const Header = () => {
                         ))}
                         <div className="flex space-x-4">
                             <a
-                                href="https://github.com/codingmastr"
+                                href="https://github.com/TechAsish1212"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="text-gray-300 hover:text-white"
@@ -116,7 +116,7 @@ const Header = () => {
                                 <FaGithub size={24} />
                             </a>
                             <a
-                                href="https://www.linkedin.com/in/tarun-kaushik-553b441a4"
+                                href="https://linkedin.com/in/asish12"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="text-gray-300 hover:text-white"
