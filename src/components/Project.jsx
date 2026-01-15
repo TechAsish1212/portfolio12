@@ -173,7 +173,7 @@ const Project = () => {
                             onClick={handleCloseButton}
                             className='absolute -top-3 -right-3 z-50 bg-[#8245ec] hover:bg-purple-700 text-white 
                 rounded-full w-10 h-10 flex items-center justify-center shadow-lg
-                transition-all duration-300 hover:scale-110'
+                transition-all duration-300 hover:scale-110 cursor-pointer'
                         >
                             <span className='text-2xl font-bold'>&times;</span>
                         </button>

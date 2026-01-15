@@ -93,7 +93,7 @@ const ContactFormModal = ({ onClose }) => {
                 <div className="flex flex-col md:flex-row">
                     {/* Left Side */}
                     <div className="hidden md:block md:w-1/3 bg-[#8245ec] p-8 flex flex-col items-center justify-center relative z-10">
-                        <img
+                        <img        
                             src={talkImg}
                             alt="Profile"
                             className="rounded-full w-40 h-40 object-cover border-4 border-white shadow-lg"
@@ -109,7 +109,7 @@ const ContactFormModal = ({ onClose }) => {
                     <div className="w-full md:w-2/3 p-8 relative z-10">
                         <button
                             onClick={onClose}
-                            className="absolute top-4 right-4 text-gray-400 hover:text-white z-20"
+                            className="absolute top-4 right-4 text-gray-400 hover:text-white z-20 cursor-pointer"
                         >
                             <IoMdClose size={24} />
                         </button>
@@ -156,7 +156,7 @@ const ContactFormModal = ({ onClose }) => {
                                     </div>
                                     <button
                                         type="submit"
-                                        className="w-full py-3 bg-[#8245ec] text-white font-semibold rounded-lg hover:bg-[#6f30d9] transition flex items-center justify-center"
+                                        className="w-full py-3 bg-[#8245ec] text-white font-semibold rounded-lg hover:bg-[#6f30d9] transition flex items-center justify-center cursor-pointer"
                                         disabled={isSending}
                                     >
                                         {isSending ? "Sending..." : "Send Message"}
