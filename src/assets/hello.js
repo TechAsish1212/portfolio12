@@ -33,6 +33,7 @@ import figmaLogo from "./tech_logo/figma.png"
 import bloggingImg from './work_logo/blogging.png'
 import todoImg from './work_logo/todo.png';
 import tictactoeImg from './work_logo/tictactoe.png';
+import feedbackNovaImg from './work_logo/feedbacknova.png'
 
 
 const SkillsInfo = [
@@ -116,6 +117,25 @@ export const projects = [
     github: "https://github.com/TechAsish1212/tictactoe",
     webapp: "https://techasishtictactoe.netlify.app/",
   },
+  {
+  id: 3,
+  title: "Feedback Fusion",
+  description:
+    "A full-stack Feedback Fusion application built with Next.js and TypeScript. It allows users to securely sign up, submit feedback, and manage responses through a clean and modern dashboard. The app features authentication with Clerk, database management using Prisma ORM with PostgreSQL, and a responsive UI styled using Tailwind CSS and shadcn components for a seamless user experience.",
+  image: feedbackNovaImg,
+  tags: [
+    "Next.js",
+    "TypeScript",
+    "Clerk",
+    "Prisma ORM",
+    "PostgreSQL",
+    "Tailwind CSS",
+    "shadcn/ui",
+    "React"
+  ],
+  github: "https://github.com/TechAsish1212/feedback-fusion",
+  webapp: "https://feednova.vercel.app/",
+}
 ];
 
 export const education = [
