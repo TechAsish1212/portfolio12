@@ -3,7 +3,7 @@ import cv from "./img/asish_res.pdf"
 import talkImg from "./img/talk_img.png"
 
 
-// skills
+// Skills
 import htmlLogo from "./tech_logo/html.png"
 import cssLogo from "./tech_logo/css.png"
 import sassLogo from "./tech_logo/sass.png"
@@ -36,55 +36,83 @@ import tictactoeImg from './work_logo/tictactoe.png';
 import feedbackNovaImg from './work_logo/feedbacknova.png'
 
 
+// const SkillsInfo = [
+//   {
+//     title: 'Frontend',
+//     skills: [
+//       { name: 'HTML', logo: htmlLogo },
+//       { name: 'CSS', logo: cssLogo },
+//       { name: 'SASS', logo: sassLogo },
+//       { name: 'JavaScript', logo: javascriptLogo },
+//       { name: 'React JS', logo: reactjsLogo },
+//       { name: 'Tailwind CSS', logo: tailwindcssLogo },
+//       { name: 'Material UI', logo: materialuiLogo },
+
+//     ],
+//   },
+//   {
+//     title: 'Backend',
+//     skills: [
+//       { name: 'Node JS', logo: nodejsLogo },
+//       { name: 'Express JS', logo: expressjsLogo },
+//       { name: 'MongoDB', logo: mongodbLogo },
+//       { name: 'Firebase', logo: firebaseLogo },
+//       { name: 'PostgreSQL', logo: postgreLogo },
+//     ],
+//   },
+//   {
+//     title: 'Languages',
+//     skills: [
+//       { name: 'C', logo: cLogo },
+//       { name: 'C++', logo: cppLogo },
+//       { name: 'Java', logo: javaLogo },
+//       { name: 'Python', logo: pythonLogo },
+//       { name: 'JavaScript', logo: javascriptLogo },
+
+//     ],
+//   },
+//   {
+//     title: 'Tools',
+//     skills: [
+//       { name: 'Git', logo: gitLogo },
+//       { name: 'GitHub', logo: githubLogo },
+//       { name: 'VS Code', logo: vscodeLogo },
+//       { name: 'Postman', logo: postmanLogo },
+//       { name: 'Vercel', logo: vercelLogo },
+//       { name: 'Netlify', logo: netlifyLogo },
+//       { name: 'Figma', logo: figmaLogo },
+//     ],
+//   },
+// ];
+
 const SkillsInfo = [
-  {
-    title: 'Frontend',
-    skills: [
-      { name: 'HTML', logo: htmlLogo },
-      { name: 'CSS', logo: cssLogo },
-      { name: 'SASS', logo: sassLogo },
-      { name: 'JavaScript', logo: javascriptLogo },
-      { name: 'React JS', logo: reactjsLogo },
-      { name: 'Tailwind CSS', logo: tailwindcssLogo },
-      { name: 'Material UI', logo: materialuiLogo },
+  { name: 'HTML', logo: htmlLogo },
+  { name: 'CSS', logo: cssLogo },
+  { name: 'SASS', logo: sassLogo },
+  { name: 'JavaScript', logo: javascriptLogo },
+  { name: 'React JS', logo: reactjsLogo },
+  { name: 'Tailwind CSS', logo: tailwindcssLogo },
+  { name: 'Material UI', logo: materialuiLogo },
 
-    ],
-  },
-  {
-    title: 'Backend',
-    skills: [
-      { name: 'Node JS', logo: nodejsLogo },
-      { name: 'Express JS', logo: expressjsLogo },
-      { name: 'MongoDB', logo: mongodbLogo },
-      { name: 'Firebase', logo: firebaseLogo },
-      { name: 'PostgreSQL', logo: postgreLogo },
-    ],
-  },
-  {
-    title: 'Languages',
-    skills: [
-      { name: 'C', logo: cLogo },
-      { name: 'C++', logo: cppLogo },
-      { name: 'Java', logo: javaLogo },
-      { name: 'Python', logo: pythonLogo },
-      { name: 'JavaScript', logo: javascriptLogo },
+  { name: 'Node JS', logo: nodejsLogo },
+  { name: 'Express JS', logo: expressjsLogo },
+  { name: 'MongoDB', logo: mongodbLogo },
+  { name: 'Firebase', logo: firebaseLogo },
+  { name: 'PostgreSQL', logo: postgreLogo },
 
-    ],
-  },
-  {
-    title: 'Tools',
-    skills: [
-      { name: 'Git', logo: gitLogo },
-      { name: 'GitHub', logo: githubLogo },
-      { name: 'VS Code', logo: vscodeLogo },
-      { name: 'Postman', logo: postmanLogo },
-      { name: 'Vercel', logo: vercelLogo },
-      { name: 'Netlify', logo: netlifyLogo },
-      { name: 'Figma', logo: figmaLogo },
-    ],
-  },
+  { name: 'C', logo: cLogo },
+  { name: 'C++', logo: cppLogo },
+  { name: 'Java', logo: javaLogo },
+  { name: 'Python', logo: pythonLogo },
+
+  { name: 'Git', logo: gitLogo },
+  { name: 'GitHub', logo: githubLogo },
+  { name: 'VS Code', logo: vscodeLogo },
+  { name: 'Postman', logo: postmanLogo },
+  { name: 'Vercel', logo: vercelLogo },
+  { name: 'Netlify', logo: netlifyLogo },
+  { name: 'Figma', logo: figmaLogo },
 ];
-
 
 export const projects = [
   {
@@ -183,4 +211,4 @@ export const InspiringQuotes = [
 
 export default heroImage;
 export { talkImg };
-export { cv, SkillsInfo };
+export { cv,SkillsInfo };
