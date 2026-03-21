@@ -44,12 +44,12 @@ const Header = () => {
     return (
         <nav className={`fixed top-0 w-full z-50 duration-300 px-[7vw] md:px-[7vw] lg:px-[20vw] ${isScrolled ? "bg-[#050414] bg-opacity-50 backdrop-blur-md shadow-md" : "bg-transparent"}`}>
             <div className='text-white py-5 flex justify-between items-center'>
-                <div className=''>
-                    <span className='text-[#8245ec]'>&lt;</span>
-                    <span className='text-white'>Asish</span>
-                    <span className='text-[#8245ec]'>/</span>
-                    <span className='text-white'>Kumar</span>
-                    <span className='text-[#8245ec]'>&gt;</span>
+                <div className='text-2xl'>
+                    <span className='text-sky-400'>&lt;</span>
+                    <span className='text-sky-400'>Asish</span>
+                    <span className='text-sky-400'>/</span>
+                    <span className='bg-gradient-to-r from-sky-400 via-blue-500 to-purple-500 bg-clip-text text-transparent'>Kumar</span>
+                    <span className='text-purple-400'>&gt;</span>
                 </div>
 
                 {/* desktop menu */}
