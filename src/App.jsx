@@ -73,7 +73,7 @@ import SpeechWords from './components/Speech'
 import Footer from './components/Footer'
 import Preloader from './components/Preloader'
 import GithubContributions from './components/GithubContributions'
-import { initGA, trackPage } from './analytics'
+import { getExactLocation, initGA, trackPage } from './analytics'
 
 const App = () => {
   const [stars, setStars] = useState([]);
@@ -93,8 +93,14 @@ const App = () => {
     setStars(newStars);
 
     // 🔥 Google Analytics Init
-    initGA();
-    trackPage(window.location.pathname);
+    // initGA();
+    // trackPage(window.location.pathname);
+
+    if (!loading) {
+      initGA();
+      trackPage(window.location.pathname);
+      getExactLocation(); // 🔥 add this
+    }
   }, []);
 
   // 👇 Show preloader first
