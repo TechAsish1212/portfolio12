@@ -72,6 +72,7 @@ import Education from './components/Education'
 import SpeechWords from './components/Speech'
 import Footer from './components/Footer'
 import Preloader from './components/Preloader'
+import GithubContributions from './components/GithubContributions'
 
 const App = () => {
   const [stars, setStars] = useState([]);
@@ -127,6 +128,7 @@ const App = () => {
         <Project />
         <Education />
         <SpeechWords />
+        <GithubContributions />
         <Footer />
       </div>
     </div>
