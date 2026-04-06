@@ -73,6 +73,7 @@ import SpeechWords from './components/Speech'
 import Footer from './components/Footer'
 import Preloader from './components/Preloader'
 import GithubContributions from './components/GithubContributions'
+import { initGA, trackPage } from './analytics'
 
 const App = () => {
   const [stars, setStars] = useState([]);
@@ -90,6 +91,10 @@ const App = () => {
       animationDelay: `${Math.random() * 5}s`
     }));
     setStars(newStars);
+
+    // 🔥 Google Analytics Init
+    initGA();
+    trackPage(window.location.pathname);
   }, []);
 
   // 👇 Show preloader first
