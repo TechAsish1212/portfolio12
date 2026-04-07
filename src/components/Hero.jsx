@@ -199,11 +199,26 @@ const Hero = () => {
   const handleMouseLeave = () =>
     setTransformStyle("rotateX(0deg) rotateY(0deg) scale(1)");
 
+  // if (loading) {
+  //   return (
+  //     <div className="text-center text-gray-400 py-20">
+  //       Loading profile...
+  //     </div>
+  //   );
+  // }
+
+  // Loading state
   if (loading) {
     return (
-      <div className="text-center text-gray-400 py-20">
-        Loading profile...
-      </div>
+      <section
+        id='projects'
+        className='py-24 pb-24 px-[12vw] md:px-[7vw] lg:px-[20vw] font-sans relative overflow-hidden min-h-screen flex items-center justify-center'
+      >
+        <div className='text-center'>
+          <div className='inline-block animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-purple-500 mb-4'></div>
+          <p className='text-gray-400'>Loading projects...</p>
+        </div>
+      </section>
     );
   }
 
@@ -272,14 +287,14 @@ const Hero = () => {
           </p>
 
           {/* Buttons */}
-          <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
+          <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start sm:justify-center">
             {profile?.cv && (
               <a
                 href={profile.cv}
                 download
-                className="px-6 py-3 bg-[#8245ec] text-white rounded-full flex items-center gap-2"
+                className="px-6 py-3 bg-[#8245ec] text-white rounded-full flex items-center gap-2 "
               >
-                Download CV <IoMdDownload />
+                Download CV <IoMdDownload className="inline ml-2"/>
               </a>
             )}
 

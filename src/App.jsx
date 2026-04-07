@@ -73,7 +73,7 @@ import SpeechWords from './components/Speech'
 import Footer from './components/Footer'
 import Preloader from './components/Preloader'
 import GithubContributions from './components/GithubContributions'
-import { getExactLocation, initGA, trackPage } from './analytics'
+import {  initGA, trackPage } from './analytics'
 
 const App = () => {
   const [stars, setStars] = useState([]);

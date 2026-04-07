@@ -168,7 +168,15 @@ const Skills = () => {
       {/* Skills Grid */}
       <div ref={ref} className="flex justify-center">
         {loading ? (
-          <p className="text-gray-400">Loading skills...</p>
+          <section
+            id='projects'
+            className='py-24 pb-24 px-[12vw] md:px-[7vw] lg:px-[20vw] font-sans relative overflow-hidden min-h-screen flex items-center justify-center'
+          >
+            <div className='text-center'>
+              <div className='inline-block animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-purple-500 mb-4'></div>
+              <p className='text-gray-400'>Loading projects...</p>
+            </div>
+          </section>
         ) : (
           <motion.div
             variants={container}
@@ -188,7 +196,7 @@ const Skills = () => {
 
                 {/* Card */}
                 <div className="relative bg-[#0a0824] border border-[#8245ec]/20 rounded-xl p-5 flex flex-col items-center justify-center transition-all duration-300 group-hover:border-[#8245ec]/60 group-hover:shadow-[0_0_20px_rgba(130,69,236,0.5)]">
-                  
+
                   {/* Icon */}
                   <div className="w-12 h-12 mb-3">
                     <img
