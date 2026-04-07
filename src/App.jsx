@@ -93,14 +93,14 @@ const App = () => {
     setStars(newStars);
 
     // 🔥 Google Analytics Init
-    // initGA();
-    // trackPage(window.location.pathname);
+    initGA();
+    trackPage(window.location.pathname);
 
-    if (!loading) {
-      initGA();
-      trackPage(window.location.pathname);
-      getExactLocation(); // 🔥 add this
-    }
+    // if (!loading) {
+    //   initGA();
+    //   trackPage(window.location.pathname);
+    //   getExactLocation(); // 🔥 add this
+    // }
   }, []);
 
   // 👇 Show preloader first
