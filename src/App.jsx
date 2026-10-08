@@ -10,6 +10,7 @@ import Preloader from './components/Preloader'
 import GithubContributions from './components/GithubContributions'
 import {  initGA, trackPage } from './analytics'
 import ChatBot from './components/ChatBot'
+import Experience from './components/Experience'
 
 const App = () => {
   const [stars, setStars] = useState([]);
@@ -65,6 +66,7 @@ const App = () => {
         <Hero />
         <Skills />
         <Project />
+        <Experience/>
         <Education />
         <SpeechWords />
         <GithubContributions />
